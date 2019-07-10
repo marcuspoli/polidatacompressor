@@ -223,6 +223,7 @@ function bytearray_to_string(p_bytearray) {
     for (var x = 0; x < p_bytearray.length; x++) {
         resp = resp + String.fromCharCode(p_bytearray[x]);
     }
+    
     return resp;
 }
 
